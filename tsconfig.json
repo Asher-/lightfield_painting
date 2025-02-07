@@ -1,0 +1,36 @@
+{
+    "files": [
+        "script/mixback/opacity.ts",
+        "script/mixback/screen.ts",
+        "script/mixback/layer_set.ts",
+        "script/mixback/output_layers.ts",
+
+        "script/mask/high_low_mask.ts",
+
+        "script/archaeology/blend_adjustment_group.ts",
+        "script/archaeology/frequency_separation.ts",
+        "script/archaeology/frequency_separation_mixback.ts",
+        "script/archaeology/frequency_separation_mixback_group.ts",
+        "script/archaeology/high_low_mask_group.ts",
+        "script/archaeology/trim_base_layer_name.ts",
+        "script/archaeology/interleave_layer.ts",
+        "script/archaeology/reverse_layer_order.ts",
+        "script/archaeology/blend_mode_mixback_group.ts",
+        "script/archaeology/brightness_contrast_mixback_group.ts",
+        "script/archaeology/split_subgroups.ts",
+
+        "script/adjustments/base/auto_level_object.ts",
+        "script/adjustments/base/create_auto_levels.ts",
+        "script/adjustments/base/set_auto_levels.ts",
+        "script/adjustments/luminance_segments.ts"
+    ],
+    "compilerOptions":{
+        "noLib":true,
+        "inlineSourceMap": true,
+        "outDir": "js/",
+        "target": "es6",
+        "module": "es6" ,
+        "allowJs": true,
+        "sourceRoot": "./"
+    }
+}

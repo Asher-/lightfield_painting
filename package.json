@@ -1,0 +1,35 @@
+{
+  "name": "lightfield_painting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "build_files() { npx rollup -c --environment \"source_identifiers:$*\"; }; build_files",
+    "clean": "rm -rf dist/*",
+    "all": "npm run clean && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "accessibility-developer-tools": "^2.12.0",
+    "array.prototype.map": "^1.0.7",
+    "google-closure-compiler": "^20240317.0.0",
+    "node": "^21.1.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-polyfill": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "types-for-adobe": "^6.0.1"
+  },
+  "devDependencies": {
+    "@ampproject/rollup-plugin-closure-compiler": "^0.27.0",
+    "peggy": "^4.0.3",
+    "rollup-plugin-es3": "^1.1.0",
+    "typescript": "^4.6.0-dev.20211119"
+  }
+}
